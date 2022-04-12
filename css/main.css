@@ -1,0 +1,38 @@
+h1, h4, img, button, input {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    margin: 75px 0 0 0;
+    border: solid 1px rebeccapurple;
+    height: 45%;
+    width: 45%
+}
+.cocktail-container {
+    height: 25em;
+    width: 25em;
+    border: solid 1px black;
+    margin: 8em auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+.instructions {
+    padding-top: 20px;
+    flex-grow: 2;
+    border: solid 1px salmon
+}
+.ingredients {
+    border: solid 1px blue;
+    width: 50%;
+}
+.name {
+    border: solid 1px olivedrab;
+    height: 40px;
+    width: 10em;
+    position: relative;
+    left: 18%;
+    bottom: 27%;
+}
