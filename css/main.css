@@ -5,34 +5,35 @@ h1, h4, img, button, input {
 }
 
 img {
-    margin: 75px 0 0 0;
-    border: solid 1px rebeccapurple;
+    margin: -20px 60px 0 0;
+    float: left;
     height: 45%;
-    width: 45%
+    width: 45%;
+    border-radius: 5%;
+    padding-left: 2px;
 }
 .cocktail-container {
     height: 25em;
     width: 25em;
-    border: solid 1px black;
-    margin: 8em auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: auto;
+    border: solid 2px black;
+    margin: 4em auto;
+   
+    border-radius: 5%;
+    
 }
 .instructions {
-    padding-top: 20px;
-    flex-grow: 2;
-    border: solid 1px salmon
+    padding-top: 50px;
+    clear: both;
+    
 }
 .ingredients {
-    border: solid 1px blue;
+   margin-left: 167px;
     width: 50%;
 }
 .name {
-    border: solid 1px olivedrab;
+   float: left;
     height: 40px;
-    width: 10em;
-    position: relative;
-    left: 18%;
-    bottom: 27%;
+    width: 5em;
+    
+    font-size: 2rem;
 }
